@@ -1,6 +1,8 @@
 package javaConcurrency.threadSignals;
 
 /**
+ * Example when multi threads are waiting on a monitor object.
+ *
  * Created by dkorolev on 10/10/15.
  */
 public class MultiExample {

@@ -1,6 +1,8 @@
 package javaConcurrency.threadSignals;
 
 /**
+ * Changes to the class for MultiThreaded example.
+ *
  * Created by dkorolev on 10/10/15.
  */
 public class MultiMyWaitNotify4 {
