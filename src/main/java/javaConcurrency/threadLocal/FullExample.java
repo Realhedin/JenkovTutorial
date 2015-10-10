@@ -1,6 +1,9 @@
 package javaConcurrency.threadLocal;
 
 /**
+ * Example shows 2 threads use ThreadLocal variable
+ * and it has different values for each of them.
+ *
  * Created by dkorolev on 10/10/15.
  */
 public class FullExample {
