@@ -22,10 +22,9 @@ public class ExampleReentrant {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {
+                System.out.println(incrementClass.getCounter());
                 readWriteLock.unlockRead();
             }
-            System.out.println(incrementClass.getCounter());
-            readWriteLock.unlockRead();
         }).start();
 
 
@@ -44,10 +43,9 @@ public class ExampleReentrant {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {
+                System.out.println(incrementClass.getCounter());
                 readWriteLock.unlockRead();
             }
-            System.out.println(incrementClass.getCounter());
-            readWriteLock.unlockRead();
         }).start();
 
         new Thread(() -> {
@@ -58,9 +56,8 @@ public class ExampleReentrant {
                 e.printStackTrace();
             } finally {
                 readWriteLock.unlockRead();
+                System.out.println(incrementClass.getCounter());
             }
-            System.out.println(incrementClass.getCounter());
-            readWriteLock.unlockRead();
         }).start();
 
 
