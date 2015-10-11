@@ -1,4 +1,4 @@
-package javaConcurrency.locks;
+package javaConcurrency.locks.basic;
 
 /**
  * Simple lock implementation by hand.

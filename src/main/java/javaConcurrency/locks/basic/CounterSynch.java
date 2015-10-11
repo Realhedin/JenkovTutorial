@@ -1,4 +1,4 @@
-package javaConcurrency.locks;
+package javaConcurrency.locks.basic;
 
 /**
  * Class with synchronized block for inc().

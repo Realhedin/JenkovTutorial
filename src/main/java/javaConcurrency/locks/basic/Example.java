@@ -1,4 +1,4 @@
-package javaConcurrency.locks;
+package javaConcurrency.locks.basic;
 
 /**
  * Example of using both mechanism: Locks and Synchronized blocks.

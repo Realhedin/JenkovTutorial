@@ -1,4 +1,4 @@
-package javaConcurrency.locks;
+package javaConcurrency.locks.basic;
 
 /**
  * Class with implementation of method inc() with locks.
