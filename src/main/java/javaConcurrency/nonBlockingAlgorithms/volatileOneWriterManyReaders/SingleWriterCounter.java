@@ -1,4 +1,6 @@
-package javaConcurrency.nonBlockingAlgorithms;
+package javaConcurrency.nonBlockingAlgorithms.volatileOneWriterManyReaders;
+
+import javaConcurrency.nonBlockingAlgorithms.SimpleCounter;
 
 /**
  * Class correctly works on using , if
@@ -9,7 +11,7 @@ package javaConcurrency.nonBlockingAlgorithms;
  *         Date: 16.10.15
  *         Time: 14:38
  */
-public class SingleWriterCounter {
+public class SingleWriterCounter implements SimpleCounter{
 
     private volatile long count = 0;
 

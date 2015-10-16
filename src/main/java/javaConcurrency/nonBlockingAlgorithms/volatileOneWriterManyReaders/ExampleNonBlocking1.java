@@ -1,4 +1,4 @@
-package javaConcurrency.nonBlockingAlgorithms;
+package javaConcurrency.nonBlockingAlgorithms.volatileOneWriterManyReaders;
 
 /**
  * Example of using of SingleWriterCounter class

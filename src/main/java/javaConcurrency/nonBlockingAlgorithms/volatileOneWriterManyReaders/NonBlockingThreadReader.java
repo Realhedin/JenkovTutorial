@@ -1,4 +1,6 @@
-package javaConcurrency.nonBlockingAlgorithms;
+package javaConcurrency.nonBlockingAlgorithms.volatileOneWriterManyReaders;
+
+import javaConcurrency.nonBlockingAlgorithms.SimpleCounter;
 
 /**
  * Thread that reads from volatile variable.
@@ -11,10 +13,10 @@ package javaConcurrency.nonBlockingAlgorithms;
  */
 public class NonBlockingThreadReader extends Thread {
 
-    private SingleWriterCounter counter;
+    private SimpleCounter counter;
 
 
-    public NonBlockingThreadReader(SingleWriterCounter counter) {
+    public NonBlockingThreadReader(SimpleCounter counter) {
         this.counter = counter;
     }
 
