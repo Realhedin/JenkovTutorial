@@ -3,9 +3,9 @@ Here are practice examples from Jenkov tutorial on http://tutorials.jenkov.com/
 
 ## Java Concurrency
 Currently I am doing examples from Java Concurrency section to revise some things<br>
- and to learn new ones.
+ and to learn new ones.<br><br>
 
-The following topics were implemented in examples:
+<i>The following topics were implemented in my examples:</i>
   1. Java Synchronized Blocks. (2 examples using one instance and two instances).
   2. Thread Local. (example with ThreadLocal variable).
   3. Thread Signaling. (2 examples with 4 different MyWaitNotify objects).
