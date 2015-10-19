@@ -1,8 +1,8 @@
 # TutorialsJenkov
-Here are practice examples from Jenkov tutorial on http://tutorials.jenkov.com/
+Here are practice examples from Jakob Jenkov's tutorial on http://tutorials.jenkov.com/
 
 ## Java Concurrency
-Currently I am doing examples from Java Concurrency section to revise some things<br>
+Here are examples from Java Concurrency section to revise some things<br>
  and to learn new ones.<br><br>
 
 <i>The following topics were implemented in my examples:</i>
@@ -23,5 +23,10 @@ Currently I am doing examples from Java Concurrency section to revise some thing
   9. Non-blocking Algorithms.<br>
   9.1. Volatile. (example of using "one writer and many readers" situation).<br>
   9.2. Compare and Swap. (example of using "many writers and many readers" situation).<br>
-  
+
+
+## Java Concurrency Util
+After revising inside of useful structures, I have started tutorial about java.util.concurrent package.<br><br>
+
+From time to time, this section will be updated with examples...
   
