@@ -1,26 +1,24 @@
-package javaUtilConcurrentPackage.blockingQueue;
+package javaUtilConcurrentPackage.priorityBlockingQueue;
 
 import javaUtilConcurrentPackage.commonPart.Consumer;
 import javaUtilConcurrentPackage.commonPart.Producer;
 
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.PriorityBlockingQueue;
 
 /**
- * Simple example of using with ArrayBlockingQueue implementation.
- * Stores element as array.
- * Bounded.
- * FIFO.
+ * Example using PriorityBlockingQueue.
+ * Unbounded concurrent queue.
+ * Elements in natural ordering or by Comparator.
  *
  * @author dkorolev
  *         Date: 19.10.15
- *         Time: 19:31
+ *         Time: 20:31
  */
-public class BlockingQueueExample {
-
+public class PriorityBlockingQueueExample {
     public static void main(String[] args) throws InterruptedException {
 
-        BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<>(1024);
+        BlockingQueue<String> blockingQueue = new PriorityBlockingQueue<>();
 
         Producer producer = new Producer(blockingQueue);
         Consumer consumer = new Consumer(blockingQueue);
@@ -29,5 +27,6 @@ public class BlockingQueueExample {
         new Thread(consumer).start();
 
         Thread.sleep(5000);
+
     }
 }

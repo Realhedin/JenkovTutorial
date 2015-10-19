@@ -1,4 +1,4 @@
-package javaUtilConcurrentPackage.blockingQueue;
+package javaUtilConcurrentPackage.commonPart;
 
 import java.util.concurrent.BlockingQueue;
 
@@ -22,9 +22,9 @@ public class Producer implements Runnable{
         try {
             queue.put("1");
             Thread.sleep(1000);
-            queue.put("2");
-            Thread.sleep(1000);
             queue.put("3");
+//            Thread.sleep(1000);
+            queue.put("2");
         } catch (InterruptedException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
