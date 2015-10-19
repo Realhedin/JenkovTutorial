@@ -1,7 +1,7 @@
-package javaUtilConcurrentPackage.blockingQueue;
+package javaUtilConcurrentPackage.queues.blockingQueue;
 
-import javaUtilConcurrentPackage.commonPart.Consumer;
-import javaUtilConcurrentPackage.commonPart.Producer;
+import javaUtilConcurrentPackage.queues.commonPart.Consumer;
+import javaUtilConcurrentPackage.queues.commonPart.Producer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
