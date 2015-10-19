@@ -22,11 +22,11 @@ Here are examples from Java Concurrency section to revise some things<br>
   8. Thread Pools. (example of using thread pool implemented by hand).
   9. Non-blocking Algorithms.<br>
   9.1. Volatile. (example of using "one writer and many readers" situation).<br>
-  9.2. Compare and Swap. (example of using "many writers and many readers" situation).<br>
+  9.2. Compare and Swap. (example of using "many writers and many readers" situation).<br><br><br>
 
 
 ## Java Concurrency Util
-After revising inside of useful structures, I have started tutorial about java.util.concurrent package.<br><br>
+After revising inside of useful structures, I have started tutorial about java.util.concurrent package.<br>
 
 From time to time, this section will be updated with examples...
   
