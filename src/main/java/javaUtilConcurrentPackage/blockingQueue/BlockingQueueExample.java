@@ -5,6 +5,9 @@ import java.util.concurrent.BlockingQueue;
 
 /**
  * Simple example of using with ArrayBlockingQueue implementation.
+ * Stores element as array.
+ * Bounded.
+ * FIFO.
  *
  * @author dkorolev
  *         Date: 19.10.15
