@@ -1,9 +1,13 @@
-package javaUtilConcurrentPackage.concurrentMap.concurrentHashMap;
+package javaUtilConcurrentPackage.maps.concurrentMap;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 /**
+ * Example of ConcurrentMap interface with ConcurrentHashMap implementation.
+ * Has better concurrency than HashTable.
+ * Does not block for read, block only changing part for write.
+ *
  * @author dkorolev
  *         Date: 20.10.15
  *         Time: 20:08
