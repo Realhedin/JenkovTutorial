@@ -1,4 +1,4 @@
-package javaUtilConcurrentPackage.queues.blockingQueue;
+package javaUtilConcurrentPackage.queues.arrayBlockingQueue;
 
 import javaUtilConcurrentPackage.queues.commonPart.Consumer;
 import javaUtilConcurrentPackage.queues.commonPart.Producer;
@@ -16,7 +16,7 @@ import java.util.concurrent.BlockingQueue;
  *         Date: 19.10.15
  *         Time: 19:31
  */
-public class BlockingQueueExample {
+public class ArrayBlockingQueueExample {
 
     public static void main(String[] args) throws InterruptedException {
 
